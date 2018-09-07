@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) throws  Exception
     {
 
+        System.out.println("Hello World in java main");
         if (Desktop.isDesktopSupported()) {
             Desktop.getDesktop().browse(new URI("http://www.google.com"));
         }
